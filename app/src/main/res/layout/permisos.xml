@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+  <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="Tienes que conceder los siguientes permisos para
+ Continuar"
+            android:id="@+id/tv1"
+            android:textAlignment="center"
+            android:background="#03A9F4"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            />
+            <androidx.appcompat.widget.SwitchCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CALL_PHONE"
+            android:textSize="15sp"
+            android:padding="42dp"
+            android:id="@+id/SwPermisos"
+             android:onClick="call_phone" />-->
+            <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Permiso"
+        android:textSize="15sp"
+        android:padding="42dp"
+        android:id="@+id/SwPermisos"
+            />
+
+
+
+</RelativeLayout>
